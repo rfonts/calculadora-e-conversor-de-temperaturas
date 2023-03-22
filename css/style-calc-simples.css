@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin-top: 15px;
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    flex-direction: column;
+}
+
+div {
+    margin: 3px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topo2 {
+    margin-top: 20px;
+    max-width: 480px;
+    height: 70px;
+    padding: 2px 18px;
+    background-color: rgb(104, 115, 124);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.topo2 h1 {
+    font-size: 48px;
+    color: white;
+    text-shadow: 5px 3px 3px black;
+}
+
+.topo1 a {
+    padding: 10px 6px;
+    background-color: gray;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+    color: white;
+    box-shadow: 0px 0px 5px 1px black;
+    text-transform: uppercase;
+    margin: 0px 10px;
+}
+
+.topo1 .arrow {
+    width: 20px;
+}
+
+a:hover {
+    color: black;
+    box-shadow: 0px 0px 5px 1px rgb(255, 255, 255);
+}
+
+.calculadora {
+    display: flex;
+    max-height: 350px;
+    max-width: 400px;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: rgb(104, 115, 124);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px white;
+    margin-top: 20px;
+}
+
+.calculadora h2 {
+    font-size: 40px;
+}
+
+.calculadora .tela-numero {
+    width: 150px;
+    height: 50px;
+}
+
+input{
+    font-size: 30px;
+}
+
+.botao {
+    width: 80px;
+    height: 70px;
+    margin: 2px 5px;
+    font-size: 30px;
+    box-shadow: 0px 0px 5px 1px rgb(43, 43, 43);
+    border-radius: 10px;
+}
+
+.container-resultado {
+    width: 300px;
+    height: 70px;
+    padding: 2px 18px;
+    background-color: rgb(203, 207, 211);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px white;
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+}
+
+span {
+    font-size: 50px;
+}

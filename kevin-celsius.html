@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style-kelvin-celsius.css">
+    <title>Calculadora de Temperatura</title>
+</head>
+
+<body>
+    <div class="topo1">
+        <div class="botoes">
+            <a href="./index.html"><img class="arrow" src="./assets/arrow_back.png" alt=""> Calculadora Simples</a>
+        </div>
+    </div>
+    <div class="topo2">
+        <h1>Conversor de Temperaturas</h1>
+    </div>
+    <div class="calculadora">
+        <div class="container-telas">
+            <input class="tela" type="text" id="kelvin" placeholder="Kelvin" name="f" value="">
+            <input class="tela" type="text" id="celsius" placeholder="Celsius" name="c" value="">
+        </div>
+        <table class="tabela">
+            <tr>
+                <td><button class="botao" id="convert">Convert</button></td>
+                <td><button class="botao" id="clear">Reset</button></td>
+                <td><button class="botao2"><a href="./fahrenheit-celsius.html">ºF>ºC</button></td>
+                <td><button class="botao2"><a href="./kelvin-fahrenheit.html">K>ºF</a></button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="js/kelvin-celsius.js"></script>
+</body>
+
+</html>
